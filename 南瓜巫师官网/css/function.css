@@ -1,0 +1,119 @@
+body {
+	background-image: linear-gradient(#40BDFF, #2020FF);
+	width: 1875px;
+}
+
+.cover {
+	width: 100%;
+	height: auto
+}
+
+.header {
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo h1 {
+	margin-left: 15px;
+	margin-top: 8px;
+	font: 22px "黑体";
+	color: white;
+}
+
+.nav {
+	/*向右浮动*/
+	float: right;
+	/*上外边距*/
+	margin-top: 8px;
+}
+
+.nav li {
+	/*设置向左浮动*/
+	float: left;
+	/*设置左右内边距*/
+	padding: 0 10px;	
+	margin-top: 6px;
+}
+
+#question {
+	/*设置左边框*/
+	border-right: 1px #d6d6d6 dotted;
+}
+
+.nav a {
+	/*设置字体颜色*/
+	color: white;
+	/*设置字体*/
+	font: 15px "黑体";
+	/*去除下划线*/
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: lightskyblue;
+	text-decoration: underline;
+}
+
+.nav p {
+	float: left;
+	/*设置字体颜色*/
+	color: white;
+	/*设置字体*/
+	font: 15px "黑体";
+}
+
+.nav img{
+	float: left;
+	margin-right :3px;
+}
+
+.func {
+	margin-top: 340px;
+	margin-left: 180px;
+}
+
+.func img {
+	float: left;
+	padding-left: 60px;
+	padding-right: 90px;
+	transition: all 0.6s;
+}
+
+.func img:hover {
+	transform: scale(1.3);
+}
+
+.fun{
+	padding-top: 150px;
+	padding-left:180px;
+}
+.fun p{
+	padding-left: 50px;
+	padding-right: 78px;
+	float: left;
+	color: white;
+	font: 22px "黑体";
+}
+
+#js{
+	padding-left: 70px;
+}
+.bottom1 {
+	padding-top: 350px;
+	text-align: center;
+}
+
+.bottom1 p {
+	font: 15px "黑体";
+	color: white;
+	padding-top: 15px;
+}
+
+.bottom1 a {
+	font: 15px "黑体";
+	color: white;
+}

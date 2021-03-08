@@ -1,0 +1,105 @@
+body{
+	background-color: #F5F5F5;
+}
+
+.uploadInput {
+	margin-top: 100px;
+	margin-left:512px;
+	margin-right:512px;
+	width:850px;
+	height:620px;
+	background-color: white;
+}
+
+#uploadLogo{
+	padding-top: 50px;
+	padding-left: 400px;
+}
+
+.uploadInput h1{
+	padding-top: 30px;
+	padding-bottom: 45px;
+	text-align: center;
+	font:30px "黑体";
+}
+
+.uploadInput input{
+	height: 48px;
+	width: 340px;
+	margin-bottom: 15px;
+	margin-left: 250px;
+	padding-left:15px;
+	border: 1px solid #e0e0e0;
+	font:18px "黑体";
+}
+
+.uploadInput input[type="password"] {
+  letter-spacing: 5px;
+  font-size: 18px;
+}
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+  color: #7b7b7b;
+  font: 14px "黑体";
+}
+
+.uploadInput button{
+	background-color: #fdba25;
+	border-color: #FDBA25;
+	color:white;
+	font:18px "黑体";
+	width:358px;
+	height:48px;
+	margin-top: 15px;
+	margin-left: 250px;
+	box-shadow: none;
+}
+
+#password {
+	-webkit-text-security:disc;
+}
+
+.uploadInput a:hover{
+	color: #fdba25;
+}
+
+.number {
+	padding-left: 460px;
+	padding-top: 12px;
+	font:15px  "黑体";
+}
+
+.number a{
+	color:#000000
+}
+
+#forget{
+	padding-left: 10px;
+	border-left: 1px #d6d6d6 dotted;
+}
+
+.uploadBottom{
+	padding-top: 110px;
+	text-align: center;
+}
+.uploadBottom a{
+	padding-left: 5px;
+	padding-right: 5px;
+	font:14px "黑体";
+}
+
+.uploadBottom a:hover{
+	color:#000000;
+}
+
+#privacy {
+	padding-left: 12px;
+	border-left: 1px #d6d6d6 dotted;
+}
+
+.uploadBottom p{
+	padding-top: 10px;
+	font:14px "黑体";
+}
+
+

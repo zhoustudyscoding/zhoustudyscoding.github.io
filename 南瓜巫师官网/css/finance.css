@@ -1,0 +1,101 @@
+body {
+    background-image: linear-gradient(#172243,#3189AD);
+    width :1875px;
+}
+
+
+#head {
+	font:21px "黑体";
+	padding-left: 50px;
+	padding-top:35px;
+	color: white;
+	float: left;
+
+}
+
+.menu {
+	float: left;
+	 background: rgba(0,0,0,0.3);
+	 width: 150px;
+	 height: 910px;
+}
+
+.menu img{
+	padding-top:25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	transition: all 0.6s;
+}
+
+.menu img:hover {
+	transform: scale(1.3);
+}
+
+.menu p{
+	padding-top: 12px ;
+	text-align: center;
+	color: white;
+	font:17px "黑体";
+}
+
+.head{
+	height: 80px;
+	
+}
+
+.nav {
+	/*向右浮动*/
+	float: right;
+	/*上外边距*/
+	margin-top: 30px;
+}
+
+.nav li {
+	/*设置向左浮动*/
+	float: left;
+	/*设置左右内边距*/
+	padding: 0 10px;	
+	margin-top: 6px;
+}
+
+#question {
+	/*设置左边框*/
+	border-right: 1px #d6d6d6 dotted;
+}
+
+.nav a {
+	float: right;
+	/*设置字体颜色*/
+	color: white;
+	/*设置字体*/
+	font: 15px "黑体";
+	/*去除下划线*/
+	text-decoration:none;
+}
+
+.nav a:hover {
+	color: lightskyblue;
+	text-decoration: underline;
+}
+
+.nav p {
+	float: right;
+	/*设置字体颜色*/
+	color: white;
+	/*设置字体*/
+	font: 15px "黑体";
+}
+
+.nav img{
+	float: right;
+	margin-right :25px;
+}
+
+.box{
+	float: left;
+	margin-left: 25px;
+	background-color: white;
+	width:1675px;
+	height:800px;
+	border-radius:10px;
+}

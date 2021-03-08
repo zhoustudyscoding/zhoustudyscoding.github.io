@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>南瓜账号 - 登录</title>
+		<!-- 引入reset.css清除浏览器默认样式 -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<!-- 引入upload -->
+		<link rel="stylesheet" type="text/css" href="css/upload.css">
+		<!-- 引入登录系统 -->
+		<script type="text/javascript" src="js/upload.js"></script>
+		<!-- jquery库 -->
+		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	</head>
+
+	<body>
+		<div class="uploadInput">
+			<img src="img/logo50.png" id="uploadLogo" />
+			<h1>南瓜账号登录</h1>
+			<input type="text" id="username" placeholder="邮箱/手机号/南瓜ID" οnblur="validate_name(this.value)">
+			</input>
+			<input type="text" id="password" type="password"  placeholder="密码" οnblur="validate_password(this.value)">
+			</input>
+			<button onclick="check()">登录</button>
+			<div class = "number">
+					<a href="register.html">立即注册</a>
+					<a href="#" id = "forget">忘记密码</a>
+			</div>
+		</div>
+	<div class = "uploadBottom">
+		<a href="#">常见问题</a>
+		<a href="#" id = "privacy">隐私政策</a>
+		<p>敏锐的南瓜巫师团队版权所有</p>
+	</div>
+	</body>
+	
+</html>

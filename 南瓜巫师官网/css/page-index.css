@@ -1,0 +1,102 @@
+body {
+	background-image: linear-gradient(#40BDFF, #2020FF);
+}
+
+.cover {
+	width: 100%;
+	height: auto
+}
+
+.header {
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo h1 {
+	margin-left: 15px;
+	margin-top: 8px;
+	font: 22px "黑体";
+	color: white;
+}
+
+.nav {
+	/*向右浮动*/
+	float: right;
+	/*上外边距*/
+	margin-top: 8px;
+}
+
+.nav li {
+	/*设置向左浮动*/
+	float: left;
+	/*设置左右内边距*/
+	padding: 0 10px;
+}
+
+#know {
+	/*设置左边框*/
+	border-left: 1px #d6d6d6 dotted;
+}
+
+.nav a {
+	/*设置字体颜色*/
+	color: white;
+	/*设置字体*/
+	font: 18px "黑体";
+	/*去除下划线*/
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #a1a1a1;
+	text-decoration: underline;
+}
+
+.title1 {
+	float: left;
+	margin-left: 150px;
+	margin-top: 260px;
+}
+
+.title1 h1 {
+	font: 70px "黑体";
+	color: white;
+	margin-bottom: 35px;
+}
+
+.title1 h2 {
+	font: 25px "黑体";
+	color: white;
+	margin-bottom: 35px;
+}
+
+.title1 img{
+	
+}
+
+.bg img {
+	float: left;
+	margin-top: 50px;
+	margin-left:150px;
+}
+
+.bottom1{
+	padding-top:800px;
+	text-align: center;
+}
+
+.bottom1 p{
+	font:  15px "黑体";
+	color:white;
+	padding-top :15px;
+}
+.bottom1 a{
+	font:  15px "黑体";
+	color:white;
+	
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>南瓜账号 - 注册</title>
+		<!-- 引入reset.css清除浏览器默认样式 -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<!-- 引入register -->
+		<link rel="stylesheet" type="text/css" href="css/register.css">
+		<!-- 引入登录系统 -->
+		<script type="text/javascript" src="js/register.js"></script>
+		<script type="text/javascript" src='js/vue.min.js.js'></script>
+
+	</head>
+
+	<body>
+		<div class="registerInput">
+			<img src="img/logo50.png" id="registerLogo" />
+			<h1>注册南瓜账号</h1>
+			<form action="save"  method="get">
+			<input type="text" id="phone" placeholder="手机号码" οnblur="validate_name(this.value)">
+			</input>
+			<input type="text" id="mail" placeholder="邮箱" οnblur="validate_password(this.value)">
+			</input>
+			<input type="text" id="password" type="password"  placeholder="密码" οnblur="validate_password(this.value)">
+			</input>
+			<input type="text" id="password2" type="password"  placeholder="重复密码" οnblur="validate_password(this.value)">
+			</input>
+			<input type="text" id="invite" placeholder="南瓜邀请码（没有可不填）" οnblur="validate_password(this.value)">
+			</input>
+			<button>登录</button>
+			</form>
+		</div>
+	<div class = "registerBottom">
+		<a href="#">常见问题</a>
+		<a href="#" id = "privacy">隐私政策</a>
+		<p>敏锐的南瓜巫师团队版权所有</p>
+	</div>
+	</body>
+	
+</html>
